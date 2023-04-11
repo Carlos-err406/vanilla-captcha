@@ -1,6 +1,6 @@
 {
   "name": "vanilla-captcha",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "pure javascript captcha implementation",
   "main": "index.js",
   "scripts": {
