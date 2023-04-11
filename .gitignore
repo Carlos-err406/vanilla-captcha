@@ -1,3 +1,14 @@
-dist
 node_modules
-.vscode
+dist/
+
+index.d.*
+dom.d.*
+utils.d.*
+
+index.js
+dom.js
+utils.js
+
+!index.ts
+!dom.ts
+!utils.ts

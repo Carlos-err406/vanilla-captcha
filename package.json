@@ -1,15 +1,27 @@
 {
   "name": "vanilla-captcha",
-  "version": "1.0.8",
+  "version": "2.0.5",
   "description": "pure javascript captcha implementation",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf ./dist/* && tsc"
+    "clean": "rm -rf dom.d.* index.d.* utils.d.* *.js",
+    "build": "npm run clean && tsc",
+    "cp": "cp -r ./dist/* ./",
+    "git:prepublish": "git add . && git commit --amend && npm version patch",
+    "go": "npm run build &&  npm run cp && npm run git:prepublish && npm publish && npm run clean"
   },
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/src/index.js"
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./dom": {
+      "types": "./index.d.ts",
+      "default": "./dom.js"
+    },
+    "./utils": {
+      "types": "./index.d.ts",
+      "default": "./utils.js"
     }
   },
   "type": "module",
@@ -22,10 +34,16 @@
     "easy to use"
   ],
   "files": [
-    "./dist"
+    "./svg-builder.d.ts",
+    "./index.js",
+    "./dom.js",
+    "./utils.js",
+    "./index.d.ts",
+    "./dom.d.ts",
+    "./utils.d.ts"
   ],
   "author": {
-    "email": "carlosvilaseca406@gmail.com",
+    "email": "carlosvilaseca406@avangenio.com",
     "name": "Carlos Daniel Vilaseca",
     "url": "https://github.com/carlos-err406"
   },
@@ -34,5 +52,12 @@
     "url": "https://github.com/Carlos-err406/vanilla-captcha",
     "type": "github"
   },
-  "homepage": "https://github.com/Carlos-err406/vanilla-captcha#readme"
+  "homepage": "https://github.com/Carlos-err406/vanilla-captcha#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.2"
+  },
+  "dependencies": {
+    "sharp": "^0.32.6",
+    "svg-builder": "^2.0.0"
+  }
 }
