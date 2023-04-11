@@ -34,5 +34,6 @@
     "type": "github"
   },
   "homepage": "https://github.com/Carlos-err406/js-captcha#readme",
+  "readme": "./README.md",
   "prepublish": "npm run build"
 }
