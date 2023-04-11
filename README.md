@@ -4,7 +4,7 @@
 
 
 A highly customizable and easy to use Captcha library.
-Based on my sveltekit component, decided to make a more generic implementation for all frameworks in vanilla JavaScript
+Based on my [sveltekit component](https://github.com/carlos-err406/captcha-sveltekit), decided to make a more generic implementation for all frameworks in vanilla JavaScript
 
 # Installation
 ```bash
