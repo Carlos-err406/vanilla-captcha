@@ -1,0 +1,37 @@
+{
+  "name": "js-captcha",
+  "version": "0.0.2",
+  "description": "pure javascript captcha implementation",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist/* && tsc"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "type": "module",
+  "keywords": [
+    "anti-bot",
+    "pure js",
+    "captcha",
+    "simple",
+    "adaptable",
+    "easy to use"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "email": "carlosvilaseca406@gmail.com",
+    "name": "Carlos Daniel Vilaseca",
+    "url": "https://github.com/carlos-err406"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Carlos-err406/js-captcha",
+    "type": "github"
+  },
+  "homepage": "https://github.com/Carlos-err406/js-captcha#readme"
+}
