@@ -31,9 +31,9 @@
   },
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/Carlos-err406/js-captcha",
+    "url": "https://github.com/Carlos-err406/vanilla-captcha",
     "type": "github"
   },
-  "homepage": "https://github.com/Carlos-err406/js-captcha#readme",
+  "homepage": "https://github.com/Carlos-err406/vanilla-captcha#readme",
   "readme": "./README.md"
 }
