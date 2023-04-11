@@ -1,6 +1,6 @@
 {
-  "name": "js-captcha",
-  "version": "0.0.3",
+  "name": "vanilla-captcha",
+  "version": "1.0.1",
   "description": "pure javascript captcha implementation",
   "main": "index.js",
   "scripts": {
@@ -33,5 +33,6 @@
     "url": "https://github.com/Carlos-err406/js-captcha",
     "type": "github"
   },
-  "homepage": "https://github.com/Carlos-err406/js-captcha#readme"
+  "homepage": "https://github.com/Carlos-err406/js-captcha#readme",
+  "prepublish": "npm run build"
 }
