@@ -3,17 +3,16 @@
 # Vanilla Captcha
 
 
-A highly customizable and easy to use Captcha library.
-Based on my [sveltekit component](https://github.com/carlos-err406/captcha-sveltekit), decided to make a more generic implementation for all frameworks in vanilla JavaScript
+A highly customizable and easy to use Captcha library. Based on my [sveltekit component](https://github.com/carlos-err406/captcha-sveltekit), decided to make a more generic implementation for all frameworks in vanilla JavaScript
 
 # Installation
-```bash
+```sh
 npm install vanilla-captcha
 ```
 
 # Usage
 
-```javascript
+```js
 import generate, {validate, generateCaptchaText, generateCaptchaImage} from 'vanilla-captcha'
 //get the answer to compare user input, and the captcha image in base64 format
 const {answer,captcha} = generate(
