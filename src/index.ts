@@ -1,5 +1,5 @@
 const generate = (
-  char_amount: number = 5,
+  charAmount: number = 5,
   width: number = 345,
   height: number = 96,
   backgroundColor: string = "#FFF",
@@ -10,7 +10,7 @@ const generate = (
   randomFontColors: boolean = false,
   randomLineColors: boolean = false
 ): { answer: string; captcha: string } => {
-  const answer = generateCaptchaText(char_amount);
+  const answer = generateCaptchaText(charAmount);
   return {
     answer: answer,
     captcha: generateCaptchaImage(
