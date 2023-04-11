@@ -1,6 +1,6 @@
 ![License](https://img.shields.io/github/license/carlos-err406/js-captcha) ![Stars](https://img.shields.io/github/stars/carlos-err406/js-captcha) ![Forks](https://img.shields.io/github/forks/carlos-err406/js-captcha) ![Issues](https://img.shields.io/github/issues/carlos-err406/js-captcha) ![Contributors](https://img.shields.io/github/contributors/carlos-err406/js-captcha)
 
-# JS Captcha
+# Vanilla Captcha
 
 
 A highly customizable and easy to use Captcha library.
