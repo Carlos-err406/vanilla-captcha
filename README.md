@@ -65,7 +65,7 @@ And yes the browser image generation version is not async since it does not use 
 
 ## Utilities
 
-the generate method's (`generate` and `generateSync`) can recieve a series of options to customize the image
+the generate methods (`generate` and `generateSync`) can recieve a series of options to customize the image
 
 ### generateSync
 
@@ -164,6 +164,11 @@ method uses caseSensitive by default so you don't need to to pass it
 const valid = validate(userInput, answer);
 console.log(valid); //false
 ```
+
+# Demo
+
+demo for tryout at: [https://vanilla-captcha-demo.vercel.app/](https://vanilla-captcha-demo.vercel.app/)
+demo source code at: [https://github.com/Carlos-err406/vanilla-captcha-demo.git](https://github.com/Carlos-err406/vanilla-captcha-demo.git)
 
 # Licence
 
