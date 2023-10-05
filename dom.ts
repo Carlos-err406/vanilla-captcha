@@ -12,7 +12,7 @@ export const generateImageSync = (captcha: string, options?: Partial<CaptchaSync
         font,
         fontColor,
         lineAmount,
-        lineColor } = getImageSyncGenerationOptions(options)
+        lineColor, lineWidth } = getImageSyncGenerationOptions(options)
     let canvas = document.createElement("canvas");
     let ctx = canvas.getContext("2d");
     canvas.width = width;
@@ -38,6 +38,7 @@ export const generateImageSync = (captcha: string, options?: Partial<CaptchaSync
         ctx.moveTo(x1, y1);
         ctx.lineTo(x2, y2);
         ctx.strokeStyle = color;
+        ctx.lineWidth = lineWidth
         ctx.stroke();
     }
     return canvas.toDataURL()
