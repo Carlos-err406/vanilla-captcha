@@ -5,7 +5,7 @@ export interface CaptchaOptions {
     font: string
     fontColor: string
     fontSize: number
-    fontWeight: number
+    fontWeight: number | string
     lineColor: string
     lineAmount: number
     lineWidth: number
