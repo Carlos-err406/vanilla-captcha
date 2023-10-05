@@ -66,10 +66,10 @@ export const getImageGenerationOptions = (input?: Partial<CaptchaOptions>): Capt
 export const getImageSyncGenerationOptions = (input?: Partial<CaptchaSyncOptions>): CaptchaSyncOptions => ({
     width: 345,
     height: 96,
-    backgroundColor: "#FFF",
+    backgroundColor: "#FFFFFF",
     font: "Bold 30px Arial",
-    fontColor: "#777",
-    lineColor: "#777",
+    fontColor: "#777777",
+    lineColor: "#777777",
     lineAmount: 10,
     lineWidth: 1,
     ...input
