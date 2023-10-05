@@ -168,6 +168,7 @@ console.log(valid); //false
 # Demo
 
 demo for tryout at: [https://vanilla-captcha-demo.vercel.app/](https://vanilla-captcha-demo.vercel.app/)
+
 demo source code at: [https://github.com/Carlos-err406/vanilla-captcha-demo.git](https://github.com/Carlos-err406/vanilla-captcha-demo.git)
 
 # Licence
