@@ -108,7 +108,7 @@ export const validate = (
     const { caseSensitive } = options
     return (
         (caseSensitive && input === answer) ||
-        (!caseSensitive && input.toLowerCase() === answer.toLowerCase())
+        (!caseSensitive && input?.toLowerCase() === answer.toLowerCase())
     );
 };
 
