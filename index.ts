@@ -1,6 +1,6 @@
 import sharp from 'sharp';
 import svgBuilder from "svg-builder";
-import { CaptchaOptions, GeneratedCaptcha, GetBuilderOptions, GetCharPositionOptions, GetLinePositionOptions, generateCaptcha, getCharPosition, getImageGenerationOptions, getLinePosition } from './utils.js';
+import { CaptchaOptions, GeneratedCaptcha, GetBuilderOptions, generateCaptcha, getCharPosition, getImageGenerationOptions, getLinePosition } from './utils.js';
 
 const generate = async (charAmount: number, captchaOptions?: Partial<CaptchaOptions>): Promise<GeneratedCaptcha> => {
   const answer = generateCaptcha(charAmount);
@@ -9,8 +9,6 @@ const generate = async (charAmount: number, captchaOptions?: Partial<CaptchaOpti
 };
 
 const getBuilder = ({ width, height, backgroundColor }: GetBuilderOptions) => svgBuilder.width(width).height(height).rect({ width, height, fill: backgroundColor });
-
-
 
 export const generateImage = async (captcha: string, options?: Partial<CaptchaOptions>) => {
   const { width,
