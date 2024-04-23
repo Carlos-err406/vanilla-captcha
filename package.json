@@ -49,7 +49,7 @@
   },
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/Carlos-err406/vanilla-captcha",
+    "url": "git+https://github.com/Carlos-err406/vanilla-captcha.git",
     "type": "github"
   },
   "homepage": "https://github.com/Carlos-err406/vanilla-captcha#readme",
